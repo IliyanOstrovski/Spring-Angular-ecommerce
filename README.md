@@ -1,27 +1,71 @@
-# AngularEcommerce
+Angular Ecommerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+This project consists of an Angular frontend and a Spring Boot backend for an eCommerce application.
+Frontend
 
-## Development server
+The frontend is developed using Angular, a TypeScript-based web application framework. It provides a user interface for customers to browse and purchase products.
+Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the Angular frontend, follow these steps:
 
-## Code scaffolding
+    Clone the frontend repository:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    bash
 
-## Build
+git clone https://github.com/IliyanOstrovski/angular-ecommerce.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install dependencies:
 
-## Running unit tests
+bash
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+cd angular-ecommerce
+npm install
 
-## Running end-to-end tests
+Start the development server:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+sql
 
-## Further help
+    npm start
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    The frontend will be accessible at http://localhost:4200.
+
+Features
+
+    Browse products by category.
+    Search for products.
+    Add products to the shopping cart.
+    Place orders and complete the checkout process.
+    User authentication and registration.
+
+Backend
+
+The backend is developed using Spring Boot, a Java framework for building web applications. It handles business logic, database operations, and provides RESTful APIs for the frontend to interact with.
+Installation
+
+To run the Spring Boot backend, follow these steps:
+
+    Clone the backend repository:
+
+    bash
+
+    git clone https://github.com/IliyanOstrovski/Spring-Boot-Ecommerce.git
+    
+    Import the project into your preferred IDE (e.g., IntelliJ, Eclipse).
+
+    Build and run the application using your IDE's tools or using Maven.
+
+Features
+
+    RESTful APIs for managing products, categories, orders, and user authentication.
+    Database integration (e.g., MySQL, PostgreSQL) for storing data.
+    Integration with external payment gateways for processing payments.
+    Security features like authentication and authorization.
+
+Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request in the respective repositories.
+License
+
+This project is licensed under the MIT License.
+
+You can use this as a starting point and customize it to fit your project's specific details. 
